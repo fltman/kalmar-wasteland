@@ -1,0 +1,26 @@
+[Unit]
+Description=Kalmar Wasteland WebSocket relay
+After=network.target
+
+[Service]
+Type=simple
+User=kalmar-arena
+Group=kalmar-arena
+WorkingDirectory=/opt/kalmar-arena
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=5221
+Environment=ALLOWED_ORIGINS=https://bjarby.com,https://www.bjarby.com
+ExecStart=/usr/bin/node /opt/kalmar-arena/index.mjs
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictSUIDSGID=true
+MemoryMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+{
+  "input_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/art/voice-wrecked.json",
+  "output_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/public/audio/voice-wrecked.mp3",
+  "max_chars": 2000,
+  "model": "eleven_v4",
+  "chunks": [
+    {
+      "index": 1,
+      "line_start": 0,
+      "line_end": 0,
+      "char_count": 102,
+      "text_hash": "cadc257a12dded24ca4ac9a9e8f2af09aa1313f4191df2dad52145cb3343904b",
+      "audio_file": "chunk_cadc257a12dd.mp3"
+    }
+  ]
+}

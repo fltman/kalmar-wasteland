@@ -1,0 +1,16 @@
+{
+  "input_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/art/voice-critical.json",
+  "output_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/public/audio/voice-critical.mp3",
+  "max_chars": 2000,
+  "model": "eleven_v4",
+  "chunks": [
+    {
+      "index": 1,
+      "line_start": 0,
+      "line_end": 0,
+      "char_count": 116,
+      "text_hash": "637b7e92c813cf3b0170d63247ddc32b8f9f41b89834ad47bb26f5892830a925",
+      "audio_file": "chunk_637b7e92c813.mp3"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Site block appended to /etc/caddy/Caddyfile on presenter-relay (70.34.197.55).
+# Caddy already serves mobil.bjarby.com there; leave that block intact.
+# Caddy issues the TLS certificate and proxies the WebSocket Upgrade itself.
+arena.bjarby.com {
+	handle /ws {
+		reverse_proxy 127.0.0.1:5221 {
+			stream_close_delay 5m
+		}
+	}
+	handle {
+		respond 404
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "input_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/art/voice-win.json",
+  "output_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/public/audio/voice-win.mp3",
+  "max_chars": 2000,
+  "model": "eleven_v4",
+  "chunks": [
+    {
+      "index": 1,
+      "line_start": 0,
+      "line_end": 0,
+      "char_count": 114,
+      "text_hash": "c84edece93cf2bd188b32f2282d5a0814afaf185c4bec2bf10cdd066d0baeb85",
+      "audio_file": "chunk_c84edece93cf.mp3"
+    }
+  ]
+}

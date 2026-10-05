@@ -1,0 +1,39 @@
+{
+  "prerendered_voice_model": "eleven_v4",
+  "realtime_voice_model": "eleven_v4_turbo",
+  "sfx_model": "eleven_text_to_sound_v2",
+  "voice_skill": "/Users/andersbj/Projekt/hooklinecoder/.claude/skills/elevenlabs-skill/scripts/generate_dialogue.py",
+  "voices": [
+    "intro",
+    "wave",
+    "critical",
+    "repair",
+    "win",
+    "wrecked"
+  ],
+  "effects": [
+    "engine",
+    "gun",
+    "explosion",
+    "impact",
+    "nitro",
+    "pickup",
+    "wind",
+    "fire",
+    "impact-concrete",
+    "impact-glass",
+    "impact-metal-heavy",
+    "impact-metal-light",
+    "impact-wood",
+    "scrape-metal",
+    "flame",
+    "rocket",
+    "mine"
+  ],
+  "reused_effects": {
+    "wind": "Kalmar Halloween / wind_loop.mp3",
+    "fire": "Kalmar Halloween / fire_far.mp3"
+  },
+  "collision_source": "ElevenLabs Sound Effects / Chrome / 2026-10-05",
+  "weapon_source": "ElevenLabs Sound Effects / Chrome / 2026-10-05"
+}

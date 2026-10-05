@@ -1,0 +1,16 @@
+{
+  "input_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/art/voice-repair.json",
+  "output_file": "/Volumes/work2/Projekt/kalmar-madmax-battlecars/public/audio/voice-repair.mp3",
+  "max_chars": 2000,
+  "model": "eleven_v4",
+  "chunks": [
+    {
+      "index": 1,
+      "line_start": 0,
+      "line_end": 0,
+      "char_count": 85,
+      "text_hash": "0ca2feb8ac28655c2a0a01b1b6a3934292386cd1412fc5d1e916bc37133c67cd",
+      "audio_file": "chunk_0ca2feb8ac28.mp3"
+    }
+  ]
+}
